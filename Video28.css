@@ -2,7 +2,9 @@
     font-family: 'BoldCARE_ar_photoshop';
     src: url('BoldCARE_ar_photoshop.eot');
     src: url('BoldCARE_ar_photoshop.eot?#iefix') format('embedded-opentype'),
+            url('BoldCARE_ar_photoshop.woff') format('woff'),
             url('BoldCARE_ar_photoshop.ttf') format('truetype'),
+            url('BoldCARE_ar_photoshop.otf') format('truetype'),
             url('BoldCARE_ar_photoshop.svg#dineng') format('svg');
    }
 p{
