@@ -1,4 +1,11 @@
-﻿p{
+﻿@font-face {
+    font-family: 'BoldCARE_ar_photoshop';
+    src: url('BoldCARE_ar_photoshop.eot');
+    src: url('BoldCARE_ar_photoshop.eot?#iefix') format('embedded-opentype'),
+            url('BoldCARE_ar_photoshop.ttf') format('truetype'),
+            url('BoldCARE_ar_photoshop.svg#dineng') format('svg');
+   }
+p{
     text-align: justify;
     font-size: 50px;
     /* border-style: solid; */
@@ -8,11 +15,11 @@
     box-shadow: 5px 8px 5px burlywood;
     box-direction: rtl;
 }
+
 h1{
     background-color: #E8BF8E;
-    font-family: 'diwanltr';
-    
-    
+    font-family: BoldCARE_ar_photoshop;
+    text-align: center;
 }
 #h1{
     border-width: 1px;
