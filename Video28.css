@@ -1,4 +1,4 @@
-p{
+﻿p{
     text-align: justify;
     font-size: 50px;
     /* border-style: solid; */
@@ -10,6 +10,7 @@ p{
 }
 h1{
     background-color: #E8BF8E;
+    font-family: 'diwanltr';
     
     
 }
