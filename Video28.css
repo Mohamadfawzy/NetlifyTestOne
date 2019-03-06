@@ -7,106 +7,63 @@
             url('BoldCARE_ar_photoshop.otf') format('truetype'),
             url('BoldCARE_ar_photoshop.svg#dineng') format('svg');
    }
-p{
-    text-align: justify;
-    font-size: 50px;
-    /* border-style: solid; */
-    /* border-color: rgb(12, 98, 104); */
-    border-width: 3px;
-    background: rgb(245, 235, 220);
-    box-shadow: 5px 8px 5px burlywood;
-    box-direction: rtl;
-}
 
-h1{
-    background-color: #E8BF8E;
-    font-family: BoldCARE_ar_photoshop;
-    text-align: center;
-}
-#h1{
-    border-width: 1px;
-    border-top-style: double;
-    margin: 0px 0px 50px 50% ;
-    direction: rtl;
-}
 
-#h2{
-    border-style: dotted;
-    margin: 0px 50% 0 0 ;
-    /* هذه تطبق على الكل. */
-
-}
-
-#h3{
-    border-style: dashed  double;
-    /* يبدا من الاعلي ويتجه مثل عقارب الساعة */
-}
-
-#h4{
-    border-style: solid dotted double;
-   
-}
-
-#h5{
-    border-style: solid;
-   border-color: black brown blueviolet green; 
-}
-
-#h6{
-    border-style: solid;
-    border-width: 15px 5px 3px 6px;
-
-    
-}
-
-#h7{
-    border-style: solid;
-    text-align: justify;
-    font-size: 40px;
-    border-radius: 15px 50px;    
-}
 
 #toimg1{
-    border: solid rgb(219, 18, 11);
+    border: solid rgb(11, 136, 219 );
+    border-width: 0.5px;
     width: 100px;
     height: 100px;
     border-radius: 100%;
+    line-height: 0em;
+    margin: 0 0 0em 0;
+    
+    vertical-align: baseline;
 
-}
-.MM1{
+/* }
+.div1{
     border: solid;
     border-radius: 50px 0px 0px 15px;
     /* background-color:  #E8BF8E; */
-    margin: 100px 100px 100px 500px ;
-    text-align: right;
-    padding :5px;
-    background-image:  url(https://i.pinimg.com/originals/f0/cd/60/f0cd60f54af63c26f702f5430e593c42.jpg) ;
+   /* margin: 100px 100px 100px 500px ;*/
+    text-align:center ;
+    padding :0px;
+    background-image:  url(PPP.jpg);
+    background-size: cover;
+		background-position: top;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
     
+    line-height: 12em;
+    margin: 0 0 0em 0;
+      
+} */
+
+/* .div1  {
+    font-size: 3.5em;
+			font-weight: 100;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+} */
+
+section{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    padding: 10px;
     
-    /* background-size: 150px 150px; */
-    /* background-repeat: repeat-y */
-    /* background-repeat: repeat-x; */
-    /* background-position: center center;  */
-    /* background-position: left bottom; العرض ثم الطول  */
-    /* background-size: cover; */
-    background-size: contain;
-    /* background-repeat: no-repeat; */
-    /* transform: rotate(20deg); */
-    /* background-clip: border-box; */
-    /* background-clip: padding-box ; */
-    background-clip: content-box;
-    /* background-clip: border-box; */
-    background-attachment: fixed;
-
-
+      
 }
-#PP1{
-    margin: 0px 0px 50px 50% ;
-
-}
-#PP2{
-    margin: 0px 50% 0 0 ;
-    
-
-}
-
+article {
+    height: 90px;
+    background: #1c87c9;
+    margin: 10px;
+  }
+  article:nth-child(1) {
+    align-self: flex-start;
+    background: #8ebf42;
+  }
